@@ -21,7 +21,7 @@ const Reviews = ({ targetElementRef }) => {
     <div className={styles.reviewsContainer} ref={targetElementRef}>
       <div className={styles.Text}>Ревюта</div>
       <div className={styles.reviewsContainerRight}>
-        <img
+        <img alt ='test' 
           src={
             "https://mobilexpert-gumi.com/wp-content/uploads/2019/12/GUMI.jpg"
           }
@@ -31,7 +31,7 @@ const Reviews = ({ targetElementRef }) => {
       <div className={styles.reviewsContainerLeft}>
         {reviews.map((review) => (
           <div key={review.id} className={styles.reviewCard}>
-            <img
+            <img alt ='test' 
               className={styles.snimkaKaka}
               src={
                 "https://mobilexpert-gumi.com/wp-content/uploads/2019/12/stars-5.png"
