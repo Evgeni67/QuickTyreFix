@@ -1,0 +1,38 @@
+.Footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  margin-bottom: 70px;
+}
+.ContactPhone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #e51d26;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 15px;
+  height: 50%;
+}
+
+.Text {
+  font-size: 1.3rem;
+  color: #e51d26;
+  animation: growShrink 2s infinite alternate; // Adjust duration as needed
+}
+@keyframes growShrink {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1); // Grow halfway through the animation
+  }
+  100% {
+    transform: scale(1);
+  }
+}

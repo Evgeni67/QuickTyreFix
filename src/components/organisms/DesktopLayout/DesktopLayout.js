@@ -7,6 +7,7 @@ import Reviews from "../Reviews/Reviews";
 
 import styles from "./DesktopLayout.module.scss";
 import PriceList from "../../molecules/priceList/PriceList";
+import Footer from "../../molecules/footer/Footer";
 
 const DesktopLayout = () => {
   const targetElementServicesRef = useRef(null);
@@ -41,6 +42,7 @@ const DesktopLayout = () => {
       <Services targetElementRef={targetElementServicesRef} />
       <PriceList targetElementRef={targetElementPricesRef} />
       <Reviews targetElementRef={targetElementReviewsRef} />
+      <Footer />
     </div>
   );
 };

@@ -1,0 +1,22 @@
+import styles from "./Footer.module.scss";
+
+const Footer = () => {
+  return (
+    <div className={styles.Footer}>
+      <div className={styles.ContactPhone}>
+        <a href="tel: +359893228788" style={{ color: "white" }}>
+          +359 893 228 788
+        </a>
+      </div>
+      <div className={styles.Text}>Обадете се сега</div>
+      <div className={styles.ContactPhone}>
+        {" "}
+        <a href="tel:+359896749937" style={{ color: "white" }}>
+          +359 896 749 937
+        </a>
+      </div>
+    </div>
+  );
+};
+
+export default Footer;
