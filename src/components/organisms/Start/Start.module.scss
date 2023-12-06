@@ -1,0 +1,81 @@
+.StartWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .StartImage {
+    max-height:600px;
+    width: 100%;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+
+  .StartText {
+    position: absolute;
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 15px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 1rem;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.661);
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+  }
+
+  .ContactInfoImg {
+    width: 520px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .StartText2 {
+    position: absolute;
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 110px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 1rem;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+  }
+
+  .StartText3 {
+    position: absolute;
+    flex-direction: column;
+    width: 55%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 255px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: white;
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}

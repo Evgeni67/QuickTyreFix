@@ -1,0 +1,119 @@
+.MainTable {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.Cenorazpis {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.15rem;
+  width: 100%;
+  justify-content: center;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+
+.PriceListWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 0.5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  .InfoRow:first-child {
+    background-color: #1d1b1c;
+    color: white;
+  }
+
+  .InfoRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #1d1b1c;
+    background-color: white;
+    border-left: 1px solid #1d1b1c;
+
+    .TextColumn {
+      min-width: 85px;
+      font-weight: bold;
+      padding-left: 5px;
+      display: flex;
+      align-items: center;
+      font-size: 0.7rem;
+    }
+
+    .SmallColumn {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      min-width: 12px;
+      padding: 10px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      font-weight: bold;
+      border-left: 1px solid #1d1b1c;
+      font-size: 0.8rem;
+    }
+
+    .SmallColumn:last-child {
+      border-right: 1px solid #1d1b1c;
+    }
+  }
+}
+
+.KonsumativiWrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+  font-size: 0.8rem;
+  border: 1px solid #1d1b1c;
+  width: 300px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+  .Prices {
+    display: flex;
+    justify-content: center;
+    padding: 10px 50px 10px 50px;
+    background-color: #1d1b1c;
+    color: white;
+    font-weight: bold;
+  }
+
+  .InfoRowPrices:last-child {
+    border-bottom: none;
+  }
+
+  .InfoRowPrices {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #1d1b1c;
+    padding-left: 10px;
+    align-items: center;
+
+    .price {
+      width: 20%;
+    }
+
+    .text {
+      font-weight: bold;
+      width: 80%;
+    }
+  }
+}
+.AdditionalText {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.15rem;
+}

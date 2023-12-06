@@ -1,0 +1,111 @@
+.MainTable {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  margin:0 auto;
+}
+
+.Cenorazpis {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 1.6rem;
+  margin-bottom: 5px;
+}
+
+.PriceListWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  .InfoRow:first-child {
+    background-color: #1d1b1c;
+    color: white;
+  }
+
+  .InfoRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #1d1b1c;
+    background-color: white;
+    border-left: 1px solid #1d1b1c;
+
+    .TextColumn {
+      width: 380px;
+      font-weight: bold;
+      padding-left: 10px;
+      display: flex;
+      align-items: center;
+    }
+
+    .SmallColumn {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      width: 50px;
+      padding: 10px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+
+      border-left: 1px solid #1d1b1c;
+    }
+
+    .SmallColumn:last-child {
+      border-right: 1px solid #1d1b1c;
+    }
+  }
+}
+
+.KonsumativiWrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+  font-size: 1.3rem;
+  border: 1px solid #1d1b1c;
+  width: 500px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+  .Prices {
+    display: flex;
+    justify-content: center;
+    padding: 10px 50px 10px 50px;
+    background-color: #1d1b1c;
+    color: white;
+    font-weight: bold;
+  }
+
+  .InfoRowPrices:last-child {
+    border-bottom: none;
+  }
+
+  .InfoRowPrices {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #1d1b1c;
+    padding-left: 10px;
+    align-items: center;
+
+    .price {
+      width: 20%;
+    }
+
+    .text {
+      font-weight: bold;
+      width: 80%;
+    }
+  }
+}
+.AdditionalText {
+  margin: 0 auto;
+  font-size: 1.25rem;
+}

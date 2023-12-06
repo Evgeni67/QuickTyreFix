@@ -1,0 +1,46 @@
+.ServicesWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .ServicesHeader {
+    display: flex;
+    margin-bottom: 20px;
+    width: 100%;
+    justify-content: center;
+    font-size: 1.5rem;
+  margin-top: 15px;
+  }
+
+  .ServicesWrapper2 {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .Service {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    margin-bottom:35px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 0px 0px 10px 10px;
+    
+    .HeaderImage {
+      width: 100%;
+    }
+
+    .HeaderText {
+      font-weight: bold;
+      font-size: 1.2rem;
+      padding: 15px;
+    }
+
+    .DescriptionText {
+      padding: 15px;
+    }
+  }
+}
