@@ -1,8 +1,8 @@
 import styles from "./Footer.module.scss";
 
-const Footer = () => {
+const Footer = ({ targetElementRef }) => {
   return (
-    <div className={styles.Footer}>
+    <div className={styles.Footer} ref={targetElementRef}>
       <div className={styles.ContactPhone}>
         <a href="tel: +359893228788" style={{ color: "white" }}>
           +359 893 228 788

@@ -13,6 +13,7 @@ const MobileLayout = () => {
   const targetElementServicesRef = useRef(null);
   const targetElementPricesRef = useRef(null);
   const targetElementReviewsRef = useRef(null);
+  const targetElementFooterRef = useRef(null);
 
   const scrollToElement = (element) => {
     if (targetElementServicesRef.current) {
@@ -23,6 +24,11 @@ const MobileLayout = () => {
         });
       } else if (element === "prices") {
         targetElementPricesRef.current.scrollIntoView({
+          behavior: "smooth", // You can use 'auto' or 'smooth' for smooth scrolling
+          block: "start", // You can use 'start', 'center', 'end', or 'nearest'
+        });
+      } else if ((element = "footer")) {
+        targetElementFooterRef.current.scrollIntoView({
           behavior: "smooth", // You can use 'auto' or 'smooth' for smooth scrolling
           block: "start", // You can use 'start', 'center', 'end', or 'nearest'
         });
@@ -41,7 +47,7 @@ const MobileLayout = () => {
       <Services targetElementRef={targetElementServicesRef} />
       <PriceList targetElementRef={targetElementPricesRef} />
       <Reviews targetElementRef={targetElementReviewsRef} />
-      <Footer />
+      <Footer targetElementRef={targetElementFooterRef} />
     </div>
   );
 };

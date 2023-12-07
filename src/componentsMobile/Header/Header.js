@@ -9,7 +9,8 @@ const Header = ({ scrollToElement }) => {
       {/* <div className={styles.HeaderNavigator}>
         Спестете като време така и пари, колата ви ще го оцени
       </div> */}
-      <img alt ='test' 
+      <img
+        alt="test"
         className={styles.burgerMenuIcon}
         onClick={() => setIsBurgerOpen((prev) => !prev)}
         src={
@@ -36,6 +37,12 @@ const Header = ({ scrollToElement }) => {
             onClick={() => scrollToElement("reviews")}
           >
             Ревюта
+          </div>
+          <div
+            className={styles.Text}
+            onClick={() => scrollToElement("footer")}
+          >
+            Контакти
           </div>
         </div>
       ) : null}
