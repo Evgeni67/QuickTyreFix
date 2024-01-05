@@ -85,7 +85,7 @@ const PriceList = ({ targetElementRef, mobile }) => {
           <div className={styles.SmallColumn}>10</div>
         </div>
         <div className={styles.InfoRow}>
-          <div className={styles.TextColumn}>Сваляне / качване бус  </div>
+          <div className={styles.TextColumn}>Сваляне / качване бус и джип </div>
           <div className={styles.SmallColumn}>10</div>
           <div className={styles.SmallColumn}>10</div>
           <div className={styles.SmallColumn}>10</div>

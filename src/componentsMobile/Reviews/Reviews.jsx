@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./Reviews.module.scss"; // Import the Sass file for styling
 
+import ReviewsImage from '../../assets/images/ReviewsImage.jpg'
+
 const Reviews = ({ targetElementRef }) => {
   const reviews = [
     {
@@ -23,7 +25,7 @@ const Reviews = ({ targetElementRef }) => {
       <div className={styles.reviewsContainerRight}>
         <img alt ='test' 
           src={
-            "https://mobilexpert-gumi.com/wp-content/uploads/2019/12/GUMI.jpg"
+            ReviewsImage
           }
           className={styles.ImageReview}
         />
