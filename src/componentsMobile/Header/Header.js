@@ -10,7 +10,7 @@ const Header = ({ scrollToElement }) => {
         Спестете като време така и пари, колата ви ще го оцени
       </div> */}
       <img
-        alt="test"
+        alt="Mobile"
         className={styles.burgerMenuIcon}
         onClick={() => setIsBurgerOpen((prev) => !prev)}
         src={

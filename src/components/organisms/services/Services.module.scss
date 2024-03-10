@@ -19,15 +19,23 @@
     margin: 0 auto;
     flex-wrap: wrap;
   }
+
+  .Wrapper {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    gap: 20px;
+  }
+
   .Service {
     display: flex;
     flex-direction: column;
-    width: 32%;
-    background-color: s;
-
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     .HeaderImage {
       width: 100%;
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+      max-height: 280px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+        rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     }
 
     .HeaderText {

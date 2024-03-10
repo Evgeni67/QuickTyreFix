@@ -9,6 +9,8 @@
   font-size: 1.6rem;
 
   .HeaderTextEl1 {
+    font-size: 1.4rem;
+    margin: 0;
   }
 
   .HeaderNavigator {
@@ -23,4 +25,9 @@
       user-select: none;
     }
   }
+}
+
+button {
+  background-color: transparent;
+  border: none;
 }

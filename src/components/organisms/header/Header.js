@@ -3,26 +3,26 @@ import styles from "./Header.module.scss";
 const Header = ({ scrollToElement }) => {
   return (
     <div className={styles.HeaderWrapper}>
-      <div className={styles.HeaderTextEl1}>Денонощен Мобилен Сервиз Гуми</div>
+      <h1 className={styles.HeaderTextEl1}>Денонощен Мобилен Сервиз Гуми</h1>
       <div className={styles.HeaderNavigator}>
-        <div
+        <button
           className={styles.HeaderTextEl}
           onClick={() => scrollToElement("prices")}
         >
           Цени
-        </div>
-        <div
+        </button>
+        <button
           className={styles.HeaderTextEl}
           onClick={() => scrollToElement("services")}
         >
           Услуги
-        </div>
-        <div
+        </button>
+        <button
           className={styles.HeaderTextEl}
           onClick={() => scrollToElement("reviews")}
         >
           Ревюта
-        </div>
+        </button>
       </div>
     </div>
   );
