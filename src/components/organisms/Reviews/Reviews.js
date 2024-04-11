@@ -5,7 +5,7 @@ const Reviews = ({ targetElementRef }) => {
   const reviews = [
     {
       id: 1,
-      text: "„Изключително бърза и професионална смяна на гуми и реклаж на джанти. Много удобна услуга- без висене пред сервизи за смяна на гуми“",
+      text: "„Изключително бърза и професионална смяна на гуми. Много удобна услуга- без висене пред сервизи за смяна на гуми“",
     },
     {
       id: 2,
@@ -22,7 +22,8 @@ const Reviews = ({ targetElementRef }) => {
       <div className={styles.reviewsContainerLeft}>
         {reviews.map((review) => (
           <div key={review.id} className={styles.reviewCard}>
-            <img alt ='test' 
+            <img
+              alt="test"
               className={styles.snimkaKaka}
               src={
                 "https://mobilexpert-gumi.com/wp-content/uploads/2019/12/stars-5.png"
@@ -33,7 +34,8 @@ const Reviews = ({ targetElementRef }) => {
         ))}
       </div>
       <div className={styles.reviewsContainerRight}>
-        <img alt ='test' 
+        <img
+          alt="test"
           src={
             "https://mobilexpert-gumi.com/wp-content/uploads/2019/12/GUMI.jpg"
           }
