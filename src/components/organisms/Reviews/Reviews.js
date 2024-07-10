@@ -18,31 +18,27 @@ const Reviews = ({ targetElementRef }) => {
   ];
 
   return (
-    <div className={styles.reviewsContainer} ref={targetElementRef}>
+    <section className={styles.reviewsContainer} ref={targetElementRef}>
       <div className={styles.reviewsContainerLeft}>
         {reviews.map((review) => (
-          <div key={review.id} className={styles.reviewCard}>
+          <article key={review.id} className={styles.reviewCard}>
             <img
-              alt="test"
+              alt="Five-star rating"
               className={styles.snimkaKaka}
-              src={
-                "https://mobilexpert-gumi.com/wp-content/uploads/2019/12/stars-5.png"
-              }
+              src="https://mobilexpert-gumi.com/wp-content/uploads/2019/12/stars-5.png"
             />
             <p className={styles.reviewText}>{review.text}</p>
-          </div>
+          </article>
         ))}
       </div>
       <div className={styles.reviewsContainerRight}>
         <img
-          alt="test"
-          src={
-            "https://mobilexpert-gumi.com/wp-content/uploads/2019/12/GUMI.jpg"
-          }
+          alt="Mobile expert tire service"
+          src="https://mobilexpert-gumi.com/wp-content/uploads/2019/12/GUMI.jpg"
           className={styles.ImageReview}
         />
       </div>
-    </div>
+    </section>
   );
 };
 

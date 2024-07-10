@@ -6,7 +6,7 @@ const Start = () => {
   return (
     <div className={styles.StartWrapper}>
       <img
-        alt="test"
+        alt="Contact"
         className={styles.StartText2}
         style={{ width: "100%" }}
         src={FlairImage}

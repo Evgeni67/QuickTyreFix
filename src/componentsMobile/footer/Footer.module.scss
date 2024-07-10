@@ -2,7 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;gap: 20px;
+  width: 100%;
+  gap: 20px;
   height: 80px;
   background-color: black;
 }
@@ -14,16 +15,19 @@
   background-color: #e51d26;
   padding-left: 5px;
   padding-right: 5px;
-  border-radius: 15px;
+  border-radius: 5px;
   height: 40%;
   font-size: 0.8rem;
 }
 
 .Text {
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #e51d26;
+  text-align: center;
+  font-weight: bold;
   animation: growShrink 2s infinite alternate; // Adjust duration as needed
 }
+
 @keyframes growShrink {
   0% {
     transform: scale(1);

@@ -21,7 +21,7 @@ const Reviews = ({ targetElementRef }) => {
 
   return (
     <div className={styles.reviewsContainer} ref={targetElementRef}>
-      <div className={styles.Text}>Ревюта</div>
+      <h1 className={styles.Text}>Ревюта</h1>
       <div className={styles.reviewsContainerRight}>
         <img alt="test" src={ReviewsImage} className={styles.ImageReview} />
       </div>

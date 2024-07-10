@@ -19,32 +19,32 @@ const Header = ({ scrollToElement }) => {
       />
 
       {isBurgerOpen ? (
-        <div className={styles.BurgerMenu}>
-          <div
+        <nav className={styles.BurgerMenu}>
+          <button
             className={styles.Text}
             onClick={() => scrollToElement("prices")}
           >
             Цени
-          </div>
-          <div
+          </button>
+          <button
             className={styles.Text}
             onClick={() => scrollToElement("services")}
           >
             Услуги
-          </div>
-          <div
+          </button>
+          <button
             className={styles.Text}
             onClick={() => scrollToElement("reviews")}
           >
             Ревюта
-          </div>
-          <div
+          </button>
+          <button
             className={styles.Text}
             onClick={() => scrollToElement("footer")}
           >
             Контакти
-          </div>
-        </div>
+          </button>
+        </nav>
       ) : null}
     </div>
   );

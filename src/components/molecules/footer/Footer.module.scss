@@ -5,7 +5,7 @@
   gap: 100px;
   width: 100%;
   height: 80px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.925);
 }
 .ContactPhone {
   display: flex;
@@ -15,12 +15,13 @@
   background-color: #e51d26;
   padding-left: 15px;
   padding-right: 15px;
-  border-radius: 15px;
+  border-radius: 5px;
   height: 50%;
 }
 
 .Text {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
   color: #e51d26;
   animation: growShrink 2s infinite alternate; // Adjust duration as needed
 }

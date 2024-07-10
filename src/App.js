@@ -7,7 +7,7 @@ import MobileLayout from "./componentsMobile/MobileLayout/MobileLayout";
 
 const App = () => {
   const windowWidth = useRef(window.innerWidth);
-  return windowWidth.current > 500 ? <DesktopLayout /> : <MobileLayout />;
+  return windowWidth.current > 1200 ? <DesktopLayout /> : <MobileLayout />;
 };
 
 export default App;
