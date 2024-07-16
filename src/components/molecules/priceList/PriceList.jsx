@@ -136,7 +136,7 @@ const PriceList = ({ targetElementRef, mobile }) => {
         </div>
         <div className={styles.InfoRowPrices}>
           <div className={styles.Text}>Почистване на джанта</div>
-          <div className={styles.Price}>5 лева</div>
+          <div className={styles.Price}> 5 лева</div>
         </div>
       </div>
 
