@@ -3,7 +3,6 @@ import React, { useRef } from "react";
 import Header from "../header/Header";
 import Start from "../Start/Start";
 import Services from "../services/Services";
-import Reviews from "../Reviews/Reviews";
 
 import styles from "./DesktopLayout.module.scss";
 import PriceList from "../../molecules/priceList/PriceList";
