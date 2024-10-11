@@ -6,7 +6,6 @@ import Start from "../Start/Start";
 import Services from "../services/Services";
 
 import styles from "./MobileLayout.module.scss";
-import Reviews from "../Reviews/Reviews";
 import Footer from "../footer/Footer";
 
 const MobileLayout = () => {
@@ -46,7 +45,6 @@ const MobileLayout = () => {
       <Start />
       <Services targetElementRef={targetElementServicesRef} />
       <PriceList targetElementRef={targetElementPricesRef} />
-      <Reviews targetElementRef={targetElementReviewsRef} />
       <Footer targetElementRef={targetElementFooterRef} />
     </div>
   );

@@ -22,14 +22,6 @@ const Header = ({ scrollToElement }) => {
               Услуги
             </button>
           </li>
-          <li className={styles.NavItem}>
-            <button
-              className={styles.HeaderTextEl}
-              onClick={() => scrollToElement("reviews")}
-            >
-              Ревюта
-            </button>
-          </li>
         </ul>
       </nav>
     </header>

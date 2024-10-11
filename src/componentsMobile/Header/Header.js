@@ -34,12 +34,6 @@ const Header = ({ scrollToElement }) => {
           </button>
           <button
             className={styles.Text}
-            onClick={() => scrollToElement("reviews")}
-          >
-            Ревюта
-          </button>
-          <button
-            className={styles.Text}
             onClick={() => scrollToElement("footer")}
           >
             Контакти

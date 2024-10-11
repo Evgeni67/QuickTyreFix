@@ -41,7 +41,6 @@ const DesktopLayout = () => {
       <Start />
       <Services targetElementRef={targetElementServicesRef} />
       <PriceList targetElementRef={targetElementPricesRef} />
-      <Reviews targetElementRef={targetElementReviewsRef} />
       <Footer />
     </div>
   );
