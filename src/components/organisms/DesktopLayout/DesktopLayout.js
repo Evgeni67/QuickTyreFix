@@ -37,7 +37,9 @@ const DesktopLayout = () => {
   return (
     <div className={styles.DesktopWrapper}>
       <Header scrollToElement={scrollToElement} />
+   
       <Start />
+      <Footer />
       <Services targetElementRef={targetElementServicesRef} />
       <PriceList targetElementRef={targetElementPricesRef} />
       <Footer />

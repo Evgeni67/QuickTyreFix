@@ -6,15 +6,20 @@ const Start = () => {
   return (
     <div className={styles.StartWrapper}>
       <img alt="test" className={styles.StartImage} src={BackgroundImage2} />
-
-      <a href="tel:+359893228788">
-        <img
+      <img
           alt="test"
           className={styles.StartText2}
           style={{ width: "410px" }}
           src={FlairImage}
         />
-      </a>
+      {/* <div clasName = {styles.FlairWrapper}>
+        <a href="tel:+359893228788">
+          <button className={styles.Btn}>0893228788 </button>
+        </a>
+        <a href="tel:+359896749937">
+          <button className={styles.Btn}>0896749937 </button>
+        </a>
+      </div> */}
     </div>
   );
 };

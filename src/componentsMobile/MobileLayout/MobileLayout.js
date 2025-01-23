@@ -43,6 +43,7 @@ const MobileLayout = () => {
     <div className={styles.MobileWrapper}>
       <Header scrollToElement={scrollToElement} />
       <Start />
+      <Footer />
       <Services targetElementRef={targetElementServicesRef} />
       <PriceList targetElementRef={targetElementPricesRef} />
       <Footer targetElementRef={targetElementFooterRef} />

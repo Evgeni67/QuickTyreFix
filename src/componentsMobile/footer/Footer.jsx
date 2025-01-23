@@ -10,6 +10,8 @@ const Footer = ({ targetElementRef }) => {
             color: "white",
             textAlign: "center",
             textDecoration: "none",
+            fontWeight:'bold'
+
           }}
         >
           +359 893 228 788
@@ -23,6 +25,7 @@ const Footer = ({ targetElementRef }) => {
             color: "white",
             textAlign: "center",
             textDecoration: "none",
+            fontWeight:'bold'
           }}
         >
           +359 896 749 937
