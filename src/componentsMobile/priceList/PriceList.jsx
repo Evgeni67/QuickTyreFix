@@ -1,18 +1,21 @@
 import styles from "./PriceList.module.scss";
+import price1 from '../../assets/images/1.png'
+import price2 from '../../assets/images/2.png'
 
 const PriceList = ({ targetElementRef, mobile }) => {
   return (
-    <div
-      className={styles.MainTable}
-      ref={targetElementRef}
-    >
+    <div className={styles.MainTable} ref={targetElementRef}>
       <div className={styles.Cenorazpis}> Ценоразпис</div>
+            <div className={styles.Cenorazpis}> Леки автомобили</div>
 
-      <div className={styles.PriceListWrapper}>
+      <img alt="guma" src={price1} />
+                  <div className={styles.Cenorazpis}> Джип / SUV / Бус</div>
+
+      <img alt="guma" src={price2} />
+
+      {/* <div className={styles.PriceListWrapper}>
         <div className={styles.InfoRow}>
-          <div className={styles.TextColumn}>
-            Размер
-          </div>
+          <div className={styles.TextColumn}>Размер</div>
           <div className={styles.SmallColumn} style={{ color: "#E31E27" }}>
             13"
           </div>
@@ -72,9 +75,7 @@ const PriceList = ({ targetElementRef, mobile }) => {
           <div className={styles.SmallColumn}>*</div>
         </div>
         <div className={styles.InfoRow}>
-          <div className={styles.TextColumn}>
-            Сваляне / качване 
-          </div>
+          <div className={styles.TextColumn}>Сваляне / качване</div>
           <div className={styles.SmallColumn}>5</div>
           <div className={styles.SmallColumn}>5</div>
           <div className={styles.SmallColumn}>5</div>
@@ -117,7 +118,7 @@ const PriceList = ({ targetElementRef, mobile }) => {
           <div className={styles.SmallColumn}>10</div>
           <div className={styles.SmallColumn}>10</div>
         </div>
-      </div>
+      </div> */}
       <div
         className={styles.AdditionalText}
         style={{ fontWeight: "bold", marginTop: "12px" }}
