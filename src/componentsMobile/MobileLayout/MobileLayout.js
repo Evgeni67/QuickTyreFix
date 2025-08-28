@@ -43,6 +43,8 @@ const MobileLayout = () => {
     <div className={styles.MobileWrapper}>
       <Header scrollToElement={scrollToElement} />
       <Start />
+      <button onClick={() => window.location='https://mobilegumisofia.com'} className={styles.ContactPhone}>Посетете новия ни сайт</button>
+
       <Footer />
       <Services targetElementRef={targetElementServicesRef} />
       <PriceList targetElementRef={targetElementPricesRef} />
