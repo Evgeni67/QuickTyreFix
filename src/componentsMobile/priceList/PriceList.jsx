@@ -8,10 +8,10 @@ const PriceList = ({ targetElementRef, mobile }) => {
       <div className={styles.Cenorazpis}> Ценоразпис</div>
             <div className={styles.Cenorazpis}> Леки автомобили</div>
 
-      <img alt="guma" src={price1} />
+      <img alt="guma" src={price1} style={{borderRadius:'6px'}}/>
                   <div className={styles.Cenorazpis}> Джип / SUV / Бус</div>
 
-      <img alt="guma" src={price2} />
+      <img alt="guma" src={price2} style={{borderRadius:'6px'}}/>
 
       {/* <div className={styles.PriceListWrapper}>
         <div className={styles.InfoRow}>
